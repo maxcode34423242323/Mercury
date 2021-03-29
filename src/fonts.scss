@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('./fonts/BebasNeueRegular.eot');
+	src: local('BebasNeue'),
+		url('./fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/BebasNeueRegular.woff') format('woff'),
+		url('./fonts/BebasNeueRegular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro-Condensed';
+	src: url('./fonts/DINPro-CondensedBold.eot');
+	src: local('DINPro-Condensed'),
+		url('./fonts/DINPro-CondensedBold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/DINPro-CondensedBold.woff') format('woff'),
+		url('./fonts/DINPro-CondensedBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: Bold;
+}
+
+@font-face {
+	font-family: 'MarkerFelt-Wide';
+	src: url('./fonts/MarkerFelt-Wide.eot');
+	src: local('MarkerFelt-Wide'),
+		url('./fonts/MarkerFelt-Wide.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/MarkerFelt-Wide.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MarkerFelt-Thin';
+	src: url('./fonts/MarkerFelt-Thin.eot');
+	src: local('MarkerFelt-Thin'),
+		url('./fonts/MarkerFelt-Thin.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/MarkerFelt-Thin.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+

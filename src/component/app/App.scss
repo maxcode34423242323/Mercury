@@ -1,0 +1,71 @@
+#form{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .form__title{
+        color: #ffffff;
+        font-family: "BebasNeue";
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+        margin-bottom: 12px ;
+    }
+    button{
+        width: 252px;
+        height: 59px;
+        background-color: #e8335e;
+        color: #ffffff;
+        font-family: "BebasNeue";
+        font-size: 36px;
+        border: none;
+        cursor: pointer;
+        &:hover{
+            background-color: #ca294f;
+        }
+    }
+    label{
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-family: "DINPro-Condensed'";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 15px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.005);
+        }
+    }
+    .form__input {
+        display: none;
+      }
+      
+    .fake {
+        display: inline-block;
+        margin-right: 21px;
+        position: relative;
+        width: 15px;
+        height: 15px;
+        border: 2px solid #ffffff;
+            &:before {
+                content: '✔';
+                position: absolute;
+                display: block;
+                width: 10px;
+                height: 10px;
+                top: 40%;
+                left: 32%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                transition: 0.2s all;
+            }
+            
+        }  
+    .form__input:checked + .fake:before {
+    opacity: 1;
+    }
+    
+}

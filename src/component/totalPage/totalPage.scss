@@ -1,0 +1,40 @@
+.anwser{
+    &__title{
+        color: #ffffff;
+        font-family: "BebasNeue";
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+        margin-bottom: 12px ;
+    }
+    &__descr{
+        margin-top: 28px;
+        display: block;
+        color: #ffffff;
+        font-family: "DINPro-Condensed'";
+        font-size: 18px;
+        font-weight: 700;
+        padding-right: 96px;
+    }
+    &__links{
+        margin-top: 35px;
+        color: #ffffff;
+        font-family: "BebasNeue";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 44px;
+        margin-bottom: 12px;
+    }
+    &__link{
+        img{
+            width: 48px;
+            margin-right: 20px;
+            transition: 0.2s all;
+            
+            &:hover{
+                transform: scale(1.09);
+            }
+        }
+        
+    }
+}

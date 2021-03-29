@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <title>React App</title>
+  </head>
+  <body>
+    <div class="promo">
+      <div class="wrapper">
+        <div class="container">
+          <section class="header">
+            <div class="header-item">
+              <img src="%PUBLIC_URL%/img/logo.png" alt="logo">
+              <div class="header-item__middle">залепись <br> <span>цена</span></div>
+              <div class="header-item__footer">с 17 февраля по 8 марта 2020 г.</div>
+            </div>
+            <div class="header-item">
+              <img src="%PUBLIC_URL%/img/card.png" alt="card">
+              <div>Получите <br>
+                на кассе купон
+                со скидками<span class='star'>**</span>
+                <span class="header-item__footer">При покупке от 700 руб.<span class='star bottom'>*</span></span></div>
+            </div>
+            <div class="header-item">
+              <img src="%PUBLIC_URL%/img/magazine.png" alt="magazine">
+            </div>
+            <div class="header-item">
+              <img src="%PUBLIC_URL%/img/food.png" alt="food">
+              <div>
+                Выберите товар <br> <span>***</span>
+                и наклейте <br>
+                скидку
+              </div>
+            </div>
+            <div class="header-item">
+              <div class="header-item__false">
+                <div class="false-descr">
+                  Наклейка 
+                  перекрывает
+                  штрих-код<br>
+                  на  упаковке
+                </div>
+                <div class="header-item__img">
+                  <img src="%PUBLIC_URL%/img/bottle-left.png" alt="bottle">
+                  <img class="cancel" src="%PUBLIC_URL%/img/cancel.png" alt="cancel">
+                </div>
+              </div>
+              <div class="header-item__true">
+                <div class="header-item__img">
+                  <img src="%PUBLIC_URL%/img/bottle-right.png" alt="bottle">
+                  <img class="tick" src="%PUBLIC_URL%/img/tick.png" alt="tick">
+                </div>
+                <div class="true-descr">
+                  Наклейка <br>
+                  не перекрывает
+                  штрих-код<br>
+                  на  упаковке
+                </div>
+              </div>
+              </div>
+          </section>
+          <section class="test">
+            <div class="test-left">
+              <div></div>
+              <div class="test-left__title">
+                Пройди тест
+              </div>
+              <div class="test-left__descr">
+                Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет оценить значение новых предложений.
+              </div>
+            </div>
+            <div class="test-right" id="root"></div>
+          </section>
+          <section class="subscribe">
+            <div class="subscribe__title">
+              подписаться на рассылку
+            </div>
+            <div class="subscribe__subtitle">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет оценить значение новых предложений.
+            </div>
+            <form action='/' method="post"> 
+              <input type="text" name="name" id="name" required="obrigatorio" placeholder="Имя">
+              <input type="email" name="email" id="email" required="obrigatorio" placeholder="E-mail">
+              <button type="submit" name="btn" id="sub">Подписаться</button>
+            </form>
+          </section>
+          <footer class='footer'>
+            <div class="footer__title">
+              Выдача и использование купонов: <span>17.02 – 08.03.2020</span> 
+            </div>
+            <div class="footer__descr">
+              Условия проведения акции: <br>
+              Совершите покупку на сумму от 700 руб.* в период с 17.02.2020 г. по 08.03.2020 г. и получите на кассе купон с наклейками-скидками** на последующие покупки <br>
+              в магазинах «ДИКСИ». Выбирайте товар*** и наклеивайте скидку**. *700 руб. без учета табачной продукции (табак, табачные изделия и курительные принадлежности, в том числе трубки, кальяны, сигаретная бумага, зажигалки) и алкогольной продукции с установленной минимальной розничной ценой. Сумма покупки рассчитывается после применения всех скидок. ** Скидка предоставляется на последующую покупку товаров***, кроме табачной продукции (табак, табачные изделия 
+              и курительные принадлежности, в том числе трубки, кальяны, сигаретная бумага, зажигалки) и алкогольной продукции с установленной минимальной розничной ценой. Скидка предоставляется в размере, указанном на наклейке, 
+              и распространяется только на тот товар***, на который она наклеена, и рассчитывается от цены, действующей в магазине на момент приобретения товара***. Скидка не суммируется и не распространяется на действующие скидки/акции. 
+              *** В акции не участвуют следующие товары: товары со скидками, акционные товары, табачная продукция (табак, табачные изделия и курительные принадлежности, в том числе трубки, кальяны, сигаретная бумага, зажигалки) и алкогольная продукция с установленной минимальной розничной ценой. Скидка, наклеенная на такой товар, не применяется и сгорает, восстановлению не подлежит. В случае утери купона наклейки-скидки не восстанавливаются. Количество купонов ограничено. Информацию об организаторе акции, правилах ее проведения, количестве купонов с наклейками-скидками, о виде/типе скидок, сроках, месте и порядке их получения, об установленных ограничениях можно узнать по телефону: 
+              8 (800) 333-02-01, а также в торговых залах магазинов «ДИКСИ» и на сайте www.dixy.ru в период проведения акции. 
+            </div>
+          </footer>
+        </div>
+        </div>
+       
+
+        
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
